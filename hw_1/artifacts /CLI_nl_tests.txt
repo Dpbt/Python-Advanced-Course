@@ -4,87 +4,65 @@
 
 Из файла:
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 """
-Output:
-"""
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
 
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
 2 
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 a
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 a
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 ab
 cd
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 ab
 2 cd
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 ab
 
 cd
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 ab
 2 
 3 cd
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
 ab
 cd
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
 2 ab
 3 cd
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
@@ -92,15 +70,12 @@ ab
 cd
 
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
 2 ab
 3 cd
 4
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
@@ -110,17 +85,14 @@ ab
 cd
 
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
 2 
 3 ab
 4
 5 cd
 6
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 ab
@@ -128,15 +100,12 @@ cd
 ef
 qwe
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 ab
 2 cd
 3 ef
 4 qwe
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
@@ -145,16 +114,13 @@ c2356d
 
 sgnf
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
 2 a1b
 3 c2356d
 4
 5 sgnf
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl CLI_test.txt
 CLI_test.txt:
 """
 
@@ -165,8 +131,7 @@ sgnf
 
 
 """
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl CLI_test.txt
 1 
 2 a1b
 3 c2356d
@@ -174,85 +139,40 @@ Output:
 5 sgnf
 6
 7
-"""
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
 Из Stdin: (pycharm terminal, ^Z = Ctrl Z = EOF)
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 ^Z
-"""
-Output:
-"""
-^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 
     2 
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-a
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 a
     1 a
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-ab
-cd
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 ab
     1 ab
 cd
     2 cd
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-ab
-
-cd
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 ab
     1 ab
 
@@ -260,17 +180,8 @@ ab
 cd
     3 cd
 ^Z
-"
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-ab
-cd
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 ab
@@ -278,18 +189,8 @@ ab
 cd
     3 cd
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-ab
-cd
-
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 ab
@@ -299,20 +200,8 @@ cd
 
     4 
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-
-ab
-
-cd
-
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 
@@ -326,18 +215,8 @@ cd
 
     6 
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-ab
-cd
-ef
-qwe
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 ab
     1 ab
 cd
@@ -347,19 +226,8 @@ ef
 qwe
     4 qwe
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-a1b
-c2356d
-
-sgnf
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 a1b
@@ -371,21 +239,8 @@ c2356d
 sgnf
     5 sgnf
 ^Z
-"""
 --------------------------------------------------------------------------------
-Command: cli1 nl
-"""
-
-a1b
-c2356d
-
-sgnf
-
-
-^Z
-"""
-Output:
-"""
+(venv) PS C:\Users\denis\PycharmProjects\PHW1> cli1 nl
 
     1 
 a1b
@@ -401,7 +256,6 @@ sgnf
 
     7 
 ^Z
-"""
 --------------------------------------------------------------------------------
 
 
