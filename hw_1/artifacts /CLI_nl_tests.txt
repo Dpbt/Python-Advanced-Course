@@ -1,11 +1,16 @@
+Тесты утилиты nl. Сравнивалась с nl -b a
+
+
+
 File:
-Command:
 cli1 nl CLI_test.txt
 CLI_test.txt:
 -----------
+Command: cli1 nl CLI_test.txt
+CLI_test.txt:
 """
 """
-OK
+Output:
 "
 "
 -----------
