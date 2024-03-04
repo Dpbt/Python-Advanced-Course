@@ -14,7 +14,7 @@ def nl(in_file):
         file = click.open_file(in_file, 'r')
         lines_orig = file.readlines()
 
-        lines = [f"{i + 1} " + lines_orig[i].rstrip("\n") for i in range(0, len(lines_orig))]
+        lines = [f"{i + 1}  " + lines_orig[i].rstrip("\n") for i in range(0, len(lines_orig))]
 
         for line in lines:
             line = "     " + line
