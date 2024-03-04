@@ -18,11 +18,12 @@ def nl(in_file):
         lines = [f"{i + 1} " + lines_orig[i].rstrip("\n") for i in range(0, len(lines_orig))]
 
         for line in lines:
+            line = "     " + line
             click.echo(line)
     else:
         i = 1
         for line in sys.stdin:
-            line = f"    {i} " + line.rstrip("\n")
+            line = f"     {i}  " + line.rstrip("\n")
             click.echo(line)
             i += 1
 
