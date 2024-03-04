@@ -11,9 +11,8 @@ def main():
 @click.argument('in_file', nargs=1, default="sys.stdin")
 def nl(in_file):
     if in_file != "sys.stdin":
-        file = open(in_file, encoding="UTF-8")
+        file = click.open_file(in_file, 'r')
         lines_orig = file.readlines()
-        file.close()
 
         lines = [f"{i + 1} " + lines_orig[i].rstrip("\n") for i in range(0, len(lines_orig))]
 
@@ -37,9 +36,8 @@ def tail(in_files):
             file_number += 1
             file_name = in_file.split("\\")[-1]
 
-            file = open(in_file, encoding="UTF-8")
+            file = click.open_file(in_file, 'r')
             lines_orig = file.readlines()
-            file.close()
 
             lines = list(map(lambda s: s.rstrip("\n"), lines_orig))
 
@@ -64,10 +62,9 @@ def wc(in_files):
     if in_files:
         for in_file in in_files:
             file_name = in_file.split("\\")[-1]
-
-            file = open(in_file, encoding="UTF-8")
+            
+            file = click.open_file(in_file, 'r')
             lines_orig = file.readlines()
-            file.close()
 
             lines = list(map(lambda s: s.rstrip("\n"), lines_orig))
 
