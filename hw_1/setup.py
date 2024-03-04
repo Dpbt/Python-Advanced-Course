@@ -1,4 +1,9 @@
+"""
+setup.py нужен для заупска CLI_DZ.py через команду cli1
+"""
+
 from setuptools import setup
+
 
 setup(
     name='cli1',
