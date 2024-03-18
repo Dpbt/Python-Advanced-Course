@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+latex_table_and_image.egg-info/PKG-INFO
+latex_table_and_image.egg-info/SOURCES.txt
+latex_table_and_image.egg-info/dependency_links.txt
+latex_table_and_image.egg-info/requires.txt
+latex_table_and_image.egg-info/top_level.txt
+latex_table_image/Ex1.py
+latex_table_image/Ex2.py
+latex_table_image/__init__.py

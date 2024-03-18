@@ -1,0 +1,1 @@
+Simple generator of latex code for tables and .png images

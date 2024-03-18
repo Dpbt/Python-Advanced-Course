@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: latex_table_and_image
+Version: 0.0.2
+Summary: Latex generator
+Home-page: https://upload.pypi.org/legacy/
+Author: denisd
+Author-email: denisderkach2003@gmail.com
+Project-URL: GitHub, https://github.com/Dpbt
+Keywords: files speedfiles
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Requires-Dist: pillow>=10.2.0
+
+Simple generator of latex code for tables and .png images
