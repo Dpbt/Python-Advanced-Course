@@ -6,7 +6,6 @@ njsb gri
 dfs
 AAAAAAAAAAAAA
 Dkcdso
-
 Output from main process:
 Message:"djerevg nf", Time from start: 0.2269301414489746, 
 Message:"fqosfv", Time from start: 5.225429534912109, 
