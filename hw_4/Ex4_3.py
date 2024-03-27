@@ -36,7 +36,6 @@ if __name__ == '__main__':
     file.write("Input from keyboard:\n")
     for message in messages:
         file.write(message)
-    file.write("\n")
 
     a_conn1, main_conn1 = multiprocessing.Pipe()
     b_conn1, a_conn2 = multiprocessing.Pipe()
