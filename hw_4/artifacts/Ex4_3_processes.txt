@@ -1,0 +1,17 @@
+Input from keyboard:
+QWRERIT As
+SDBFsi
+
+njsb gri
+dfs
+AAAAAAAAAAAAA
+Dkcdso
+
+Output from main process:
+Message:"djerevg nf", Time from start: 0.2269301414489746, 
+Message:"fqosfv", Time from start: 5.225429534912109, 
+Message:"", Time from start: 10.226258754730225, 
+Message:"awfo tev", Time from start: 15.226946592330933, 
+Message:"qsf", Time from start: 20.227670192718506, 
+Message:"nnnnnnnnnnnnn", Time from start: 25.228996992111206, 
+Message:"qxpqfb", Time from start: 30.22967290878296, 
