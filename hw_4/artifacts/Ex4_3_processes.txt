@@ -1,3 +1,6 @@
+# sent - прочитал с клавиатуры и отправил в процесс A
+# get - получил из процесса B 
+
 Time from start:4.8641440868377686: process_main sent "QWRERIT A"
 Time from start:4.866630554199219: process_main get "DJEREVG N"
 Time from start:8.995433807373047: process_main sent "SDBFs"
