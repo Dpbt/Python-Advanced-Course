@@ -1,16 +1,14 @@
-Input from keyboard:
-QWRERIT As
-SDBFsi
-
-njsb gri
-dfs
-AAAAAAAAAAAAA
-Dkcdso
-Output from main process:
-Message:"djerevg nf", Time from start: 0.2269301414489746, 
-Message:"fqosfv", Time from start: 5.225429534912109, 
-Message:"", Time from start: 10.226258754730225, 
-Message:"awfo tev", Time from start: 15.226946592330933, 
-Message:"qsf", Time from start: 20.227670192718506, 
-Message:"nnnnnnnnnnnnn", Time from start: 25.228996992111206, 
-Message:"qxpqfb", Time from start: 30.22967290878296, 
+Time from start:4.8641440868377686: process_main sent "QWRERIT A"
+Time from start:4.866630554199219: process_main get "DJEREVG N"
+Time from start:8.995433807373047: process_main sent "SDBFs"
+Time from start:9.866251468658447: process_main get "FQOSf"
+Time from start:10.348225355148315: process_main sent ""
+Time from start:14.867409706115723: process_main get ""
+Time from start:15.419798374176025: process_main sent "njsb gr"
+Time from start:17.93136239051819: process_main sent "df"
+Time from start:19.86849570274353: process_main get "awfo te"
+Time from start:21.5221164226532: process_main sent "	AAAAAAAA"
+Time from start:24.869473934173584: process_main get "qs"
+Time from start:29.870213747024536: process_main get "	NNNNNNNN"
+Time from start:39.82279634475708: process_main sent "DHUjriefimec"
+Time from start:39.823797941207886: process_main get "QUHwevrsvzrp"
