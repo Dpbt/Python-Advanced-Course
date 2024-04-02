@@ -20,7 +20,7 @@ async def download(num, directory_path):
 if __name__ == "__main__":
     num_of_pics = int(input("Number of pics to download:"))
     # output_directory = int(input("Path to directory:"))
-    output_directory = "downloaded_images_Ex1_F"
+    output_directory = "downloaded_images_Ex5_1"
     os.mkdir(output_directory)
 
     asyncio.run(download(num_of_pics, output_directory))
